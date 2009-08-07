@@ -1,7 +1,6 @@
 ####################
 #
-# Example 1
-# Simple condor job description file
+# Travis is a genius
 #
 ####################
 Executable     = rush_rinzel.sh
