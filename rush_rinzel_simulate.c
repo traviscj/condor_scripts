@@ -69,6 +69,8 @@ int main(int argc, char** argv){
 	double  dt = strtod(argv[2],&endp);
 	double  tMax = strtod(argv[3],&endp);
 	double  g_a = strtod(argv[4],&endp);
+	if (atoi(argv[5]) > 0)
+		i_seed = atoi(argv[5]);
 	//unsigned long i_seed = atoi(argv[5]);
 	init_genrand(i_seed);
 	double mu;
