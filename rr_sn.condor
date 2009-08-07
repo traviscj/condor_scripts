@@ -1,0 +1,13 @@
+####################
+#
+# Example 1
+# Simple condor job description file
+#
+####################
+Executable     = rush_rinzel.sh
+#Requirements = (OpSys == "LINUX" && Arch =="X86_64")
+Arguments = $(Process) 30
+transfer_input_files =rush_rinzel_simulate,analysis
+WhenToTransferOutput = ON_EXIT
+	Log          = hello.log
+Queue 901
