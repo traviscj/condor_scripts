@@ -1,6 +1,6 @@
 ####################
 #
-# Travis is a genius
+# Run Rush Rinzel
 #
 ####################
 Executable     = rush_rinzel.sh
