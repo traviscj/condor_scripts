@@ -1,7 +1,6 @@
 ####################
 #
-# Example 1
-# Simple condor job description file
+# Run Rush Rinzel
 #
 ####################
 Executable     = rush_rinzel.sh
