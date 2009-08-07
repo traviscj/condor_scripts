@@ -23,6 +23,7 @@ void rush_rinzel_1step(double V_start, double *V_new, double b_start, double *b_
 	double a_n = 0.02*(V_start +45.7)/(1-exp(-0.1*(V_start +45.7)));
 	double b_m = 15.2*exp(-0.0556*(V_start+54.7));
 	double b_n = 0.25*exp(-0.0125*(V_start+55.7));
+	/* here's a comment */
 	double tau_n = 1/(a_n + b_n);;
 	double tau_b = .124 + 2.678/(1+exp(0.0624*(V_start+50)/16.027));
 	double m_inf = a_m / (a_m + b_m);
