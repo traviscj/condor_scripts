@@ -1,8 +1,4 @@
-<<<<<<< HEAD:rush_rinzel_simulate.c
 /* Travis Johnson */
-=======
-/* NICK CAIN */
->>>>>>> 8d7b95ea1b65c0932d984febba7fe2542c982f91:rush_rinzel_simulate.c
 #include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
