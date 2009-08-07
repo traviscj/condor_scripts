@@ -1,4 +1,5 @@
 #!/bin/bash
+# written by Travis Johnson
 # $1 - Job Number
 # $2 - Intervals
 LOWMU=0
